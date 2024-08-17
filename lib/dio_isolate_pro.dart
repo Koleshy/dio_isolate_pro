@@ -1,4 +1,4 @@
-library dio_flutter_transformer;
+library dio_isolate_pro;
 
 import 'dart:convert';
 import 'package:dio/dio.dart';
@@ -13,8 +13,8 @@ import 'package:flutter/foundation.dart';
 /// will be in background with [compute] function.
 
 /// FlutterTransformer
-class FlutterTransformer extends DefaultTransformer {
-  FlutterTransformer() : super(jsonDecodeCallback: _parseJson);
+class DioIsolatePro extends DefaultTransformer {
+  DioIsolatePro() : super(jsonDecodeCallback: _parseJson);
 }
 
 // Must be top-level function

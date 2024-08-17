@@ -1,4 +1,4 @@
-# dio_flutter_transformer2 [![Pub](https://img.shields.io/pub/v/dio_flutter_transformer2.svg?style=flat-square)](https://pub.dartlang.org/packages/dio_flutter_transformer2)
+# dio_isolate_pro [![Pub](https://img.shields.io/pub/v/dio_isolate_pro.svg?style=flat-square)](https://pub.dartlang.org/packages/dio_isolate_pro)
 
 A [dio](https://github.com/flutterchina/dio) transformer especially for flutter, by which the json decoding will be in background with [compute] function.
 
@@ -8,12 +8,11 @@ This package is a fork of [dio_flutter_transformer](https://pub.dev/packages/dio
 > 
 
 
-
 ## Install
 
 ```yaml
 dependencies:
-  dio_flutter_transformer: ^4.0.0 # latest version
+  dio_flutter_transformer: ^5.6.0 # latest version
 ```
 
 ## Usage
@@ -22,7 +21,7 @@ Import the package:
 
 ```dart
 import 'package:dio/dio.dart';
-import 'package:dio_flutter_transformer2/dio_flutter_transformer.dart';
+import 'package:dio_isolate_pro/dio_isolate_pro.dart';
 ```
 
 Then replace dio default transformer: 
@@ -30,7 +29,7 @@ Then replace dio default transformer:
 ```dart
 
 var dio=Dio();
-dio.transformer = FlutterTransformer(); // replace dio default transformer
+dio.transformer = DioIsolatePro(); // replace dio default transformer
 dio.get(...);
 ```
 
