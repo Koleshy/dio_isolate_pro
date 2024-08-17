@@ -12,7 +12,7 @@ This package is a fork of [dio_flutter_transformer](https://pub.dev/packages/dio
 
 ```yaml
 dependencies:
-  dio_flutter_transformer: ^5.6.0 # latest version
+  dio_isolate_pro: ^5.6.1 # latest version
 ```
 
 ## Usage

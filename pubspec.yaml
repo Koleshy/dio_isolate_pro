@@ -1,7 +1,7 @@
 name: dio_isolate_pro
 description:  A dio transformer espically for flutter, by which the json decoding will be in background with [compute] function in flutter sdk.
 
-version: 5.6.0
+version: 5.6.1
 homepage: https://github.com/arklabsnz/dio_flutter_transformer
 
 environment:
