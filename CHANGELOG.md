@@ -1,3 +1,7 @@
+## [5.7.2] - 2024.10.03
+
+* Dio version update to 5.7.0.
+
 ## [5.6.1] - 2024.08.16
 
 * Dio version update to 5.6.0.
